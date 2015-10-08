@@ -13,6 +13,8 @@ var ElectronicsComponent = require('./components/ElectronicsComponent');
 var ClothingComponent = require('./components/ClothingComponent');
 var RegisterComponent = require('./components/RegisterComponent');
 
+Parse.initialize('buuk76K4aHB31S5M078qsDv2l9pCPcDQ6mcOzL9m', 'HkBxtpMh1cJf7tdfBOoQYdzvdZJqns8afMltdeGC');
+
 var app = document.getElementById('app');
 
 var Router = Backbone.Router.extend({
